@@ -20,11 +20,15 @@ html {
 p {
     font-size: 16px;
 }
+table,th,tr,td{
+border:solid 1px;
+border-collapse:collapse;
+}
 
 /*** Calendar **********************/
 .content .container-fluid div.calender  { position: relative; }
 
-.container-fluid .calender  table {
+.container-fluid .calender  table tr td th{
 cursor:pointer;
 border:1px solid #ccc;
 font-size: 11px;
